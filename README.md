@@ -95,7 +95,7 @@ ubuntu-chain/
 ### Installation
 ```bash
 # Clone the repository
-git clone https://github.com/Decentralized-Rights-Protocol/ubuntu-chain.git
+git clone https://github.com/NeonTechno/ubuntu-chain.git
 
 # Install dependencies
 ./setup.sh
