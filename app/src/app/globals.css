@@ -1,0 +1,55 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: #F8F9FA;
+  --foreground: #1A1A1A;
+  --primary: #FF6B00;
+  --card-bg: #FFFFFF;
+  --card-border: #E5E7EB;
+}
+
+[data-theme='dark'] {
+  --background: #0A0A0A;
+  --foreground: #F8F9FA;
+  --primary: #FF6B00;
+  --card-bg: #1A1A1A;
+  --card-border: #2D2D2D;
+}
+
+body {
+  color: var(--foreground);
+  background: var(--background);
+  font-family: var(--font-inter), sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+@layer components {
+  .btn-primary {
+    @apply bg-ubuntu-orange text-white px-6 py-3 rounded-xl font-bold transition-all hover:scale-105 active:scale-95 shadow-lg shadow-orange-500/20;
+  }
+  
+  .glass-card {
+    @apply bg-opacity-10 backdrop-blur-lg border border-white border-opacity-20 rounded-2xl;
+  }
+  
+  .section-container {
+    @apply max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12;
+  }
+}
+
+.animate-float {
+  animation: float 6s ease-in-out infinite;
+}
+
+@keyframes float {
+  0% { transform: translateY(0px); }
+  50% { transform: translateY(-20px); }
+  100% { transform: translateY(0px); }
+}
+
+.text-gradient {
+  @apply bg-clip-text text-transparent bg-gradient-to-r from-ubuntu-orange to-yellow-500;
+}

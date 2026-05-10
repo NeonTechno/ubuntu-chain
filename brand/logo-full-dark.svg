@@ -1,0 +1,16 @@
+<svg width="600" height="150" viewBox="0 0 600 150" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Icon -->
+  <g transform="translate(20, 25) scale(0.5)">
+    <circle cx="100" cy="100" r="90" stroke="#FF6B00" stroke-width="12"/>
+    <circle cx="100" cy="100" r="30" fill="#FF6B00"/>
+    <circle cx="100" cy="40" r="15" fill="#FF6B00"/>
+    <circle cx="100" cy="160" r="15" fill="#FF6B00"/>
+    <circle cx="40" cy="100" r="15" fill="#FF6B00"/>
+    <circle cx="160" cy="100" r="15" fill="#FF6B00"/>
+    <path d="M100 55V70M100 130V145M55 100H70M130 100H145" stroke="#FF6B00" stroke-width="6" stroke-linecap="round"/>
+  </g>
+  <!-- Text -->
+  <text x="140" y="90" font-family="Arial, sans-serif" font-weight="800" font-size="64" fill="white">UBUNTU</text>
+  <text x="410" y="90" font-family="Arial, sans-serif" font-weight="300" font-size="64" fill="#FF6B00">CHAIN</text>
+  <text x="140" y="125" font-family="Arial, sans-serif" font-weight="400" font-size="16" fill="#888" letter-spacing="4">IDENTITY • FINANCE • COMMUNITY</text>
+</svg>

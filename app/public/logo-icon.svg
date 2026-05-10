@@ -1,0 +1,13 @@
+<svg width="200" height="200" viewBox="0 0 200 200" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Outer Circle -->
+  <circle cx="100" cy="100" r="90" stroke="#FF6B00" stroke-width="12"/>
+  <!-- Central Hub -->
+  <circle cx="100" cy="100" r="30" fill="#FF6B00"/>
+  <!-- Connecting Nodes -->
+  <circle cx="100" cy="40" r="15" fill="#FF6B00"/>
+  <circle cx="100" cy="160" r="15" fill="#FF6B00"/>
+  <circle cx="40" cy="100" r="15" fill="#FF6B00"/>
+  <circle cx="160" cy="100" r="15" fill="#FF6B00"/>
+  <!-- Links -->
+  <path d="M100 55V70M100 130V145M55 100H70M130 100H145" stroke="#FF6B00" stroke-width="6" stroke-linecap="round"/>
+</svg>

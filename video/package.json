@@ -1,0 +1,25 @@
+{
+  "name": "ubuntu-chain-video",
+  "version": "1.0.0",
+  "description": "UBUNTU CHAIN Cinematic Demo",
+  "main": "index.ts",
+  "scripts": {
+    "start": "remotion preview src/Root.tsx",
+    "build": "remotion render src/Root.tsx UBUNTU_CHAIN_DEMO --out=out/video.mp4",
+    "upgrade": "remotion upgrade"
+  },
+  "dependencies": {
+    "remotion": "4.0.211",
+    "@remotion/cli": "4.0.211",
+    "@remotion/player": "4.0.211",
+    "lucide-react": "^0.477.0",
+    "framer-motion": "^12.4.7",
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0"
+  },
+  "devDependencies": {
+    "@types/react": "^18.0.0",
+    "@types/react-dom": "^18.0.0",
+    "typescript": "^5.0.0"
+  }
+}
